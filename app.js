@@ -26,8 +26,8 @@ const connection=mysql.createConnection({
     password:'5fe9dec8',
     database:'heroku_e4b593e11ddae98', 
 });*/
-
-const port = process.env.PORT || 3000;
+ 
+const port = process.env.PORT || 3000; 
 
 //view engine
 app.set('view engine', 'ejs');
